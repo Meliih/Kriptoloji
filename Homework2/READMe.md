@@ -1,0 +1,3 @@
+MD5 ( Message-Digest algoritması 5 ), 128 bitlik bir özet değeriyle sonuçlanan, yaygın olarak kullanılan bir şifreleme karma işlevidir. 128 bitlik (16 bayt) MD5 karmaları (mesaj özetleri olarak da adlandırılır) tipik olarak 32 basamaklı onaltılık sayılar olarak temsil edilir (örneğin, ec55d3e698d289f2afd663725127bace). EAP-MD-5 , kullanıcının parolasını açığa çıkarabileceğinden ve çarpışmaya dayalı birkaç zayıflık gösterildiğinden, kablosuz LAN uygulamaları için tipik olarak önerilmez . Yalnızca tek yönlü kimlik doğrulama sağlar
+
+Yaptıgım örnek kodda bazı sifrelerde aynı hash degerlerini ürettiği açıkca belli olmaktadır.
