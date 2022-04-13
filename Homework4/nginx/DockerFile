@@ -1,0 +1,12 @@
+FROM nginx:1.17.4-alpine
+
+RUN rm /etc/nginx/conf.d/default.conf
+COPY nginx.conf /etc/nginx/conf.d
+COPY . /home
+COPY my_cert_name.crt /etc/nginx/my_cert_name.crt
+COPY my_key_name.key /etc/nginx/my_key_name.key
+
+
+EXPOSE 80
+EXPOSE 443
+CMD ["nginx", "-g", "daemon off;"]
